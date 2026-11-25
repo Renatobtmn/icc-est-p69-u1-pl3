@@ -5,8 +5,8 @@ import models.Incidente;
 
 public class IncidenteController {
     public List<Incidente> sort(List<Incidente> incidentes) {
-        // TODO S: ordenar la misma lista con List.sort y el orden natural; devolverla.
-        throw new UnsupportedOperationException("S: sort pendiente");
+        return incidentes.sort(null);
+        return incidentes;
     }
 
     public int busquedaBinaria(List<Incidente> incidentes, Incidente objetivo) {
