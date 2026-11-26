@@ -70,7 +70,7 @@ public class Incidente implements Comparable<Incidente> {
 
         return comparador.compare(this, otro);
     }
-
+    //override
     @Override
     public String toString() {
         return "%s | severidad=%d | minutos=%d | servicios=%d | fecha=%s"
