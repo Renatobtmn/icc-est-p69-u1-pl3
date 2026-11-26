@@ -1,6 +1,6 @@
 plugins { java; application }
 repositories { mavenCentral() }
-java { toolchain { languageVersion.set(JavaLanguageVersion.of(23)) } }
+java { toolchain { languageVersion.set(JavaLanguageVersion.of(21)) } }
 application { mainClass.set("App") }
 dependencies {
     testImplementation(platform("org.junit:junit-bom:5.12.2"))
